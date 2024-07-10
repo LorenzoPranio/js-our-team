@@ -22,3 +22,18 @@ P.s. In allegato trovate un esempio di layout e le immagini da utilizzare
 
 
 |SOLUZIONE|
+
+MILESTONE 0
+1.-Creo un array con all'interno gli oggetti(struttura dati: Our Team)
+1.1.-Ogni membro del team deve avere i seguenti dati: Nome, Ruolo, Foto
+
+MILESTONE 1
+2.-Creare un console log per ogni membro del team, che mostri le informazioni di nome, ruolo e la stringa della foto
+
+MILESTONE 2
+3.-Creare un container che inserisca all'interno del DOM tutte le informazioni 
+3.1.-Recupero dal DOM l'elemento in cui andare ad inserire le colonne con le informazioni
+
+4.-Creo un CICLO FOR per l'array
+4.1.-Creo la colonna usando const
+4.2.-Inserisco all'interno della colonna tutte le informazioni
