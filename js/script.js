@@ -38,3 +38,21 @@ const our_team = [
 
 //MILESTONE 1
 //Creare un console log per ogni membro del team, che mostri le informazioni di nome, ruolo e la stringa della foto
+
+//Wayne Barnett
+console.log(our_team[0])
+
+//Angela Caroll
+console.log(our_team[1])
+
+//Walter Gordon
+console.log(our_team[2])
+
+//Angela Lopez
+console.log(our_team[3])
+
+//Scott Estrada
+console.log(our_team[4])
+
+//Barbara Ramos
+console.log(our_team[5])
