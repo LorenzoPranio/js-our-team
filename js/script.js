@@ -65,10 +65,16 @@ for (let i = 0; i < our_team.length; i++){
 
 //MILESTONE 2
 //Creare un container che inserisca all'interno del DOM tutte le informazioni 
-
-
 //Recupero dal DOM l'elemento in cui andare ad inserire le colonne con le informazioni
+const team_container = document.getElementById('team-container');
+
+//Ciclo l'array per farlo apparire on screen
+for (let i = 0; i < our_team.length; i++){
+    team_container.innerHTML += `${our_team[i].img}${our_team[i].name} ${our_team[i].role}<br>`
+}
 
 //Creo la colonna usando const
 
 //Inserisco all'interno della colonna tutte le informazioni
+
+//Creo la funzione per la colonna
