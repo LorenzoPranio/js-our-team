@@ -65,6 +65,8 @@ for (let i = 0; i < our_team.length; i++){
 
 //MILESTONE 2
 //Creare un container che inserisca all'interno del DOM tutte le informazioni 
+
+
 //Recupero dal DOM l'elemento in cui andare ad inserire le colonne con le informazioni
 
 //Creo la colonna usando const
