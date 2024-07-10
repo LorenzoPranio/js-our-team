@@ -83,15 +83,15 @@ for (let i = 0; i < our_team.length; i++){
     const col = create_column();
     //Inserisco all'interno della colonna tutte le informazioni
     col.innerHTML = `<div class="card m-2">
-    <div class="card-body">
-        <h2>
-            ${our_team[i].img}
-        </h2>
-    </div>
-    <p class="text-center">
-        ${our_team[i].name} <br>
-        ${our_team[i].role}
-    </p>
+        <div class="card-img-top">
+        <img src="./img/${our_team[i].img}" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p class="text-center">
+                <strong>${our_team[i].name}</strong>
+                ${our_team[i].role}
+            </p>
+        </div>
     </div>`;
 
     team_container.append(col);
