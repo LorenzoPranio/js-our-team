@@ -71,10 +71,14 @@ const team_container = document.getElementById('team-container');
 //Ciclo l'array per farlo apparire on screen
 for (let i = 0; i < our_team.length; i++){
     team_container.innerHTML += `${our_team[i].img}${our_team[i].name} ${our_team[i].role}<br>`
+    //Creo la colonna usando const
+    const col = create_column();
+    //Inserisco all'interno della colonna tutte le informazioni
 }
 
-//Creo la colonna usando const
-
-//Inserisco all'interno della colonna tutte le informazioni
-
 //Creo la funzione per la colonna
+function create_column(){
+    const col = document.createElement('div')
+    col.classList.add('col-33');
+    return col;
+}

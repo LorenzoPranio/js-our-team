@@ -18,3 +18,13 @@
     width: 100%;
     text-align: center;
 }
+
+.col-50{
+    width: 50%;
+    text-align: center;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    text-align: center;
+}
