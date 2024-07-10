@@ -40,28 +40,32 @@ const our_team = [
 //Creare un console log per ogni membro del team, che mostri le informazioni di nome, ruolo e la stringa della foto
 
 //Wayne Barnett
-console.log(our_team[0])
+//console.log(our_team[0])
 
 //Angela Caroll
-console.log(our_team[1])
+//console.log(our_team[1])
 
 //Walter Gordon
-console.log(our_team[2])
+//console.log(our_team[2])
 
 //Angela Lopez
-console.log(our_team[3])
+//console.log(our_team[3])
 
 //Scott Estrada
-console.log(our_team[4])
+//console.log(our_team[4])
 
 //Barbara Ramos
-console.log(our_team[5])
+//console.log(our_team[5])
+
+//Creo un CICLO FOR per l'array
+
+for (let i = 0; i < our_team.length; i++){
+    console.log(our_team[i].name, our_team[i].role, our_team[i].img)
+}
 
 //MILESTONE 2
 //Creare un container che inserisca all'interno del DOM tutte le informazioni 
 //Recupero dal DOM l'elemento in cui andare ad inserire le colonne con le informazioni
-
-//Creo un CICLO FOR per l'array
 
 //Creo la colonna usando const
 
