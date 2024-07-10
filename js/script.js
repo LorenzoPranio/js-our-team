@@ -35,3 +35,6 @@ const our_team = [
         img: 'barbara-ramos-graphic-designer.jpg',
     },
 ]
+
+//MILESTONE 1
+//Creare un console log per ogni membro del team, che mostri le informazioni di nome, ruolo e la stringa della foto
