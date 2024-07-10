@@ -56,3 +56,13 @@ console.log(our_team[4])
 
 //Barbara Ramos
 console.log(our_team[5])
+
+//MILESTONE 2
+//Creare un container che inserisca all'interno del DOM tutte le informazioni 
+//Recupero dal DOM l'elemento in cui andare ad inserire le colonne con le informazioni
+
+//Creo un CICLO FOR per l'array
+
+//Creo la colonna usando const
+
+//Inserisco all'interno della colonna tutte le informazioni
